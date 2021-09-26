@@ -1,12 +1,21 @@
 ---
-marp: true
+marp:  true
+theme: default
+size:  16:9
+paginate: true
 ---
 
+<!-- _backgroundColor: darkcyan -->
+<!-- _color          : white    -->
+<!-- _paginate       : false    -->
 
 # さんぷる（h1相当）
 作成日:2021/09/26
 
 ---
+
+<!-- header: 2ページ目以降に適用されるヘッダー -->
+
 ## 目次（h2相当）
 - 背景（箇条書）
 - 概要
@@ -24,10 +33,25 @@ marp: true
 2. 番号付きリスト
 8. ねこ
 
+---
+
 |  TH左寄せ  |  TH中央寄せ  |  TH右寄せ  |
 | :---- | :----: | ----: |
 |  TD  |  TD  | TD |
 |  TD  |  TD  | TD |
+
+---
+
+```
+*こんにちは*
+```
+
+---
+
+```C:変数宣言
+int i = 0; //コード
+printf(int i = %d,i);
+```
 
 ---
 
@@ -39,4 +63,3 @@ marp: true
 * [Markdown記法 サンプル集](http://qiita.com/tbpgr/items/989c6badefff69377da7)
 * [Qiitaのマークダウンで色をつける方法[140色]](http://qiita.com/twipg/items/d8043cd4681a2780c160)
 * [Qiitaで色々なフォントを使う](http://qiita.com/yyu/items/894de7fc3a83e675b06b)
-
